@@ -1,9 +1,9 @@
 FROM centos:7
-MAINTAINER Joern Ott <joern.ott@ott-consult.de>
+LABEL MAINTAINER="joern.ott@ott-consult.de"
 
 ENV GOSU_VERSION=1.10 \
     GIT_COMMIT=x \
-    IMAGE_HISTORY=centos/7
+    IMAGE_HISTORY="centos/7"
 
 COPY src /
 
